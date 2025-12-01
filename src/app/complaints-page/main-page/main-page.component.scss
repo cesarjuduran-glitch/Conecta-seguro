@@ -1,0 +1,470 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+}
+.row-layout {
+  display: flex;
+}
+.hero-section-complaints {
+  background-color: transparent;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 400px;
+  flex-shrink: 0;
+}
+.hero-section-complaints-content {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  max-width: 1400px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.hero-section-complaints-title-content {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 320px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.hero-section-complaints-buttons {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.hero-section-complaints-actions {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.features-section-complaints {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.features-section-complaints-content {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  max-width: 1400px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.features-section-complaints-header {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.features-section-complaints-cards {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.feature-card-1 {
+  --header-text-color: var(--ig-card-header-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --subtitle-text-color: var(--ig-card-subtitle-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --content-text-color: var(--ig-card-content-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --actions-text-color: var(--ig-card-actions-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --background: var(--ig-surface-200);
+  height: max-content;
+  min-width: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.feature-card-1-content {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.testimonial-card-1 {
+  --header-text-color: var(--ig-card-header-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --subtitle-text-color: var(--ig-card-subtitle-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --content-text-color: var(--ig-card-content-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --actions-text-color: var(--ig-card-actions-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --background: var(--ig-surface-200);
+  height: max-content;
+  min-width: 320px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.testimonial-card-1-user-info {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.testimonial-card-1-user-name-city {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.secondary-cta-section-complaints {
+  background-color: var(--ig-secondary-100);
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 400px;
+  flex-shrink: 0;
+}
+.row-reverse-layout {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.secondary-cta-section-complaints-buttons {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.secondary-cta-section-complaints-actions {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.pricing-section-complaints {
+  background-color: var(--ig-surface-50);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.pricing-card-1 {
+  --header-text-color: var(--ig-card-header-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --subtitle-text-color: var(--ig-card-subtitle-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --content-text-color: var(--ig-card-content-text-color, lch(from hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1) calc(l + (50 - l) * 0.1 + sign(50 - l) * 7) c h));
+  --actions-text-color: var(--ig-card-actions-text-color, hsla(from color(from var(--background) var(--y-contrast)) h 0 l/1));
+  --background: var(--ig-card-background, var(--surface-500));
+  height: max-content;
+  min-width: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.pricing-card-1-content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.faq-section-complaints {
+  background-color: var(--ig-surface-500);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 48px 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.faq-accordion {
+  overflow-y: auto;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.footer-section-complaints {
+  background-color: var(--ig-surface-50);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.footer-main-content {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.footer-links-social {
+  background-color: transparent;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  min-width: 320px;
+  max-width: 1200px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.footer-company-info {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.footer-logo-title {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.footer-social-icons {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.footer-email {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  width: max-content;
+  height: max-content;
+  flex-shrink: 0;
+}
+.footer-copyright {
+  border-color: var(--ig-gray-400);
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  padding: 0 32px;
+  min-height: 64px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.content {
+  height: max-content;
+  min-width: min-content;
+}
+.hero-section-complaints-statement {
+  color: var(--ig-gray-800);
+  height: max-content;
+  min-width: min-content;
+}
+.hero-section-complaints-image {
+  object-fit: cover;
+  border-radius: 8px;
+  min-width: 200px;
+  min-height: 0;
+  max-height: 350px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.content_3 {
+  text-align: center;
+  height: max-content;
+  min-width: min-content;
+}
+.feature-card-1-icon-avatar {
+  --ig-size: var(--ig-size-medium);
+  --igx-avatar-background: var(--ig-secondary-100);
+}
+.icon {
+  color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-user-avatar {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: var(--ig-secondary-100);
+}
+.content_1 {
+  color: var(--ig-secondary-100-contrast);
+  height: max-content;
+}
+.pricing-card-1-list-item-1-avatar {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: transparent;
+}
+.footer-company-icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-gray-600);
+}
+.footer-company-name {
+  color: var(--ig-gray-900);
+  height: max-content;
+  min-width: min-content;
+}
+.content_4 {
+  color: var(--ig-gray-700);
+  height: max-content;
+  min-width: min-content;
+}
+.footer-email-icon {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: var(--ig-gray-600);
+}
+.footer-customer-support-link {
+  color: var(--ig-gray-700);
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.feature-card-1-icon-avatar_1::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.feature-card-1-icon-avatar_2::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.feature-card-1-icon-avatar_3::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-user-avatar_1::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-user-avatar_2::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.testimonial-card-1-user-avatar_3::part(base) {
+  --igx-avatar-color: var(--ig-secondary-100-contrast);
+}
+.body-content {
+  min-width: 50px;
+  min-height: 50px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.report-complaint-button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-shrink: 0;
+}
+.feature-card-1-button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.testimonial-card-1-rating {
+  --ig-size: var(--ig-size-medium);
+  width: max-content;
+  height: max-content;
+}
+.contact-support-button {
+  --foreground: theme:Secondary-50;
+  --background: theme:Secondary-100-contrast;
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-shrink: 0;
+}
+.view-faq-button {
+  --foreground: theme:Secondary-100-contrast;
+  --border-color: theme:Secondary-100-contrast;
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+  flex-shrink: 0;
+}
+.pricing-card-1-list {
+  height: max-content;
+}

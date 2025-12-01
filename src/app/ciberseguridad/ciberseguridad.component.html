@@ -1,0 +1,65 @@
+<igx-navbar class="navigation-bar-ciberseguridad">
+  <igx-navbar-action>
+    <button igxIconButton="flat" [igxToggleAction]="navigationDrawerCiberseguridad">
+      <igx-icon>
+        menu
+      </igx-icon>
+    </button>
+  </igx-navbar-action>
+  <igx-navbar-title class="navbar-content">
+    <h6 class="h6">
+      Ciberseguridad Adolescente
+    </h6>
+  </igx-navbar-title>
+  <button igxIconButton="flat">
+    <igx-icon>
+      search
+    </igx-icon>
+  </button>
+  <button igxIconButton="flat">
+    <igx-icon>
+      favorite
+    </igx-icon>
+  </button>
+  <button igxIconButton="flat">
+    <igx-icon>
+      more_vert
+    </igx-icon>
+  </button>
+</igx-navbar>
+<div class="row-layout horizontal-group-ciberseguridad">
+  <igx-nav-drawer [isOpen]="true" [pin]="true" width="320px" #navigationDrawerCiberseguridad class="navigation-drawer-ciberseguridad">
+    <ng-template igxDrawer>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/home-page']">
+        <span>Inicio</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/qu-es']">
+        <span>¿Qué es?</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/riesgos']">
+        <span>Riesgos</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/prevenir']">
+        <span>Prevenir</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/privacidad']">
+        <span>Privacidad</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/vctima']">
+        <span>Víctima</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/ayuda']">
+        <span>Ayuda</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/glosario']">
+        <span>Glosario</span>
+      </div>
+      <div igxDrawerItem [routerLink]="['/ciberseguridad/crditos']">
+        <span>Créditos</span>
+      </div>
+    </ng-template>
+  </igx-nav-drawer>
+  <div class="page-container-ciberseguridad">
+    <router-outlet></router-outlet>
+  </div>
+</div>

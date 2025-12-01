@@ -1,0 +1,42 @@
+<div class="row-layout login-form-container">
+  <div class="column-layout login-form">
+    <h4 class="content">
+      Login
+    </h4>
+    <div class="column-layout login-form-fields">
+      <igx-input-group type="border" class="login-email">
+        <input type="email" [(ngModel)]="value" required="true" igxInput #igxInput />
+        <label igxLabel>Email address</label>
+        @if (igxInput.validity.valueMissing) {
+          <igx-hint>Este campo es obligatorio</igx-hint>
+        }
+      </igx-input-group>
+      <igx-input-group type="border" class="login-email">
+        <input type="password" [(ngModel)]="value1" required="true" igxInput #igxInput1 />
+        <label igxLabel>Password</label>
+        @if (igxInput1.validity.valueMissing) {
+          <igx-hint>Este campo es obligatorio</igx-hint>
+        }
+      </igx-input-group>
+      <div class="row-layout login-remember-forgot">
+        <igx-checkbox labelPosition="after" class="login-remember-me">
+          Remember me
+        </igx-checkbox>
+        <a target="_blank" class="ig-typography__body-2 login-forgot-password">
+          Forgot your password?
+        </a>
+      </div>
+      <button igxButton="contained" type="button" class="login-sign-in-button">
+        Sign in
+      </button>
+    </div>
+    <div class="row-layout login-no-account">
+      <p class="ig-typography__body-2 content">
+        Don't have an account?
+      </p>
+      <a target="_blank" [routerLink]="['/complaints-page/register-page']" class="ig-typography__body-2 login-create-new-account">
+        Create new account
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<igx-navbar class="navbar-complaints">
+  <igx-navbar-title class="navbar-content">
+    <div [routerLink]="['/complaints-page/main-page']" class="row-layout navbar-logo-title">
+      <igx-icon class="navbar-icon">
+        report
+      </igx-icon>
+      <h6 class="navbar-title">
+        ReportHub
+      </h6>
+    </div>
+    <button igxButton="flat" type="button" class="navbar-how-it-works-button">
+      How it Works
+    </button>
+    <button igxButton="flat" type="button" class="navbar-how-it-works-button">
+      Features
+    </button>
+    <button igxButton="flat" type="button" class="navbar-how-it-works-button">
+      Pricing
+    </button>
+    <button igxButton="flat" type="button" class="navbar-how-it-works-button">
+      FAQ
+    </button>
+  </igx-navbar-title>
+  <button igxIconButton="flat" class="navbar-search-button">
+    <igx-icon class="icon">
+      search
+    </igx-icon>
+  </button>
+  <button igxButton="contained" type="button" [routerLink]="['/complaints-page/register-page']" class="navbar-how-it-works-button">
+    Sign Up
+  </button>
+  <button igxButton="flat" type="button" [routerLink]="['/complaints-page/login-page']" class="navbar-how-it-works-button">
+    Login
+  </button>
+</igx-navbar>
+<div class="page-container">
+  <router-outlet></router-outlet>
+</div>
